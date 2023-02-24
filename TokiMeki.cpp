@@ -26,7 +26,8 @@ int main(){
     double playerIntellegence{};
     double playerFitness{};
     double playerCharisma{};
-    
+    double playerGuts{};
+    double playerMoney{0};
     double playerReputation{0};
     
     string playerName{};
@@ -59,6 +60,17 @@ int main(){
     }
     cout<<endl<<"What is somthing you did in highschool you were proud of\n";
     cout<<endl<<endl;
+    cout<<"1) I won graduated with a 4.0"<<endl;
+    cout<<"2) I was won prom king"<<endl;
+    cout<<"3) I stood up to my bully"<<endl;
+    if (dec1==4){
+        cout << "3) I learned some programing";
+    }
+    else
+        cout << "3) I learned guitar";
+    
+    
+    
     
     
     
